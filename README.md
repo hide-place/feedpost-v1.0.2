@@ -2,13 +2,13 @@
 
 This project is a simple web application that allows users to post messages and view them in real-time. It uses Flask as the backend framework, HTML, CSS, and JavaScript for the frontend, and Firebase Realtime Database for data storage.
 
+
 ## Installation
 
 1. Clone the repository:
 ```bash
-git clone  https://github.com/hide-place/feedpost-v1.0.2.git
+git clone https://github.com/hide-place/feedpost-v1.0.2.git
 cd feedpost
-```
 
 2. Create a virtual environment (optional but recommended):
 ```bash
