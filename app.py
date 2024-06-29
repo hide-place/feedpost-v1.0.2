@@ -24,8 +24,8 @@ def index():
 
 # Run the Flask development server
 if __name__ == '__main__':
-   # app.run(debug=True)
-   app.run(host='0.0.0.0' , port=5000)
+   app.run(debug=True)
+   #app.run(host='0.0.0.0' , port=5000)
 
 
 #TODO  Function to store the post in a database (not implemented)
