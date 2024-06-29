@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+  transition: all .3s;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px;
+ width: 90%;
+
+}
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    color: black;
+    background-color: white;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.add:hover{
+  background-color: black;
+  color: white;
+
+}
+.main{
+    margin: 100px ;
+    display: none; 
+    flex-direction: column;
+    width: 90%;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 4px;
+   
+  
+
+}
+
+
+   
+
+
+#usernameInput{
+    height: 30px;
+    margin: 7px 0px;
+    padding: 3px;
+}
+
+.main textarea {
+    width: 300px; 
+    height: 150px; 
+    padding: 10px;
+    margin: 5px 0px;
+
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none; 
+}
+
+.main button{
+    width: 20%;
+    height: 40px;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: white;
+    transition: all .3s ;
+}
+
+.main button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+
+#posts{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post{
+    margin: 10px 0 ;
+    width: 90%;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 10px 5px black;
+}
+
+.post h3{
+  font-size: 16px;
+  font-weight: 500;
+   margin: 10px;
+
+}
+
+.time {
+    text-align: right;
+    font-size: 13px;
+    color: rgb(180, 176, 176);
+}
