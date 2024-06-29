@@ -4,7 +4,10 @@ from flask import Flask, render_template, url_for, request
 from database import store_post_data, get_posts_data
 
 # Create an instance of the Flask class
-app = Flask(__name__)
+from flask import Flask
+
+app = Flask(__name__, template_folder='templates', static_folder='static')
+
 
 # Retrieve posts data from the database using the get_posts_data function
 get_posts: dict = get_posts_data()
@@ -21,7 +24,8 @@ def index():
 
 # Run the Flask development server
 if __name__ == '__main__':
-    app.run(debug=True, port=9000)
+   # app.run(debug=True)
+   app.run(host='0.0.0.0' , port=5000)
 
 
 #TODO  Function to store the post in a database (not implemented)
