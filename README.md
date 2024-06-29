@@ -9,6 +9,7 @@ This project is a simple web application that allows users to post messages and 
 ```bash
 git clone https://github.com/hide-place/feedpost-v1.0.2.git
 cd feedpost
+```
 
 2. Create a virtual environment (optional but recommended):
 ```bash
